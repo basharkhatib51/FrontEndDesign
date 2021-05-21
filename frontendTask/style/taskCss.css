@@ -1,0 +1,435 @@
+@font-face {
+    font-family: "JF Flat";
+    src: local("JF Flat"),
+    url(../fonts/JF-Flat-regular.ttf) format("truetype");
+}
+
+.only-m {
+    display: none !important;
+}
+
+* {
+    font-family: "JF Flat";
+    color: #003366;
+}
+
+html, body {
+    min-height: 100%;
+    margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0px;
+    margin: 0px;
+}
+
+label {
+    float: right;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.bag-title {
+    text-align: center;
+    border-bottom: 2px solid #1eeac1;
+    margin: auto;
+    width: max-content;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.col {
+    flex: 1;
+    float: left;
+    width: 50%;
+    padding: 1em;
+}
+
+.b-border {
+    border-bottom: 1px solid #1eeac1;
+}
+
+.container {
+    text-align: center;
+    display: flow-root;
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+}
+
+.container-form {
+    text-align: center;
+    display: flow-root;
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+}
+
+.container div {
+    display: flow-root;
+}
+
+.menu {
+    width: max-content;
+    float: left;
+}
+
+.menu, a {
+    text-decoration: none;
+    text-align: left;
+    color: white;
+    padding: 10px;
+}
+
+.logo {
+    height: 30px;
+    float: right;
+}
+
+
+.background {
+    background-color: #2676c7a1;
+}
+
+.slide .right-img {
+    background-image: url("../media/germ.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+
+.slide .left-img {
+    background-image: url("../media/doctor.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.center-div > div {
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.curve > div {
+    float: right;
+    width: 50%;
+}
+
+.curve .slider-img > img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+.curve {
+    background-image: url("../media/curve.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 80%;
+    width: -webkit-fill-available;
+    display: flow-root;
+
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.c-w {
+    color: white;
+}
+
+.btn-shadow {
+    box-shadow: 0px 4px 11px 0px #00000088;
+}
+
+.title {
+    font-weight: bold;
+    text-align: right;
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    margin: auto;
+    border-right: 20px solid #003366;
+    padding: 12px 10px;
+}
+
+.content {
+    position: relative;
+    z-index: 0;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px 35px;
+    text-align: start;
+    width: 50%;
+    margin: auto;
+    margin-top: -7px;
+}
+
+
+.slider-content {
+    margin-top: 5%;
+}
+
+.btn {
+    padding: 4px 10px;
+}
+
+.card-container {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+}
+
+.card-img {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.card {
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-curve {
+    border-radius: 20px;
+    background-color: #1eeac1;
+}
+
+.btn-warning {
+    background-color: #ffa322;
+    color: #003366;
+}
+
+.btn-primary {
+    background-color: #1eeac1;
+    color: #003366;
+}
+
+.ship-img {
+    background-image: url("../media/shipping.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ship-icon {
+    width: 33%;
+    float: left;
+}
+
+.plan-background {
+    background-color: #ffa322;
+}
+
+.plan-title {
+    text-align: center;
+    border-bottom: 2px solid white;
+    margin: auto;
+    width: max-content;
+}
+
+.plan-card-container {
+    width: 33%;
+    float: right;
+}
+
+.plan-card {
+    background-color: white;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.plan-card-img {
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+    border-bottom: 2px solid;
+    padding: 12px 0px;
+}
+
+.crossed-text {
+    text-decoration: line-through;
+}
+
+.order-card {
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.price {
+    color: red;
+    font-weight: bold;
+}
+
+.mt-5 {
+    margin-top: 50px;
+}
+
+.mt-10 {
+    margin-top: 100px;
+}
+
+.mt-1 {
+    margin-top: 10px;
+}
+
+.mt-3 {
+    margin-top: 30px;
+}
+
+.mb-2 {
+    margin-bottom: 20px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    min-height: 100%;
+}
+
+.h-50 {
+    min-height: 50%;
+
+}
+
+.px-5 {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.button.pay-now {
+    float: left;
+    background-color: #003366;
+    color: #fff;
+    padding: 5px 30px;
+    border-radius: 3px;
+    border: 0px;
+    border-bottom: 3px solid #fea629;
+}
+
+.footer {
+    background-color: #eaeaea;
+}
+
+.input-number input {
+    height: 28px !important;
+    background-color: #ffffff;
+    border: 1px solid #8F8E8E;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.input-number button {
+    background-color: #ffffff;
+    border: 1px solid #8F8E8E;
+    width: 20px;
+    height: 30px;
+    border-radius: 0px;
+}
+
+button.right-button {
+    border-left: 0px;
+}
+
+button.left-button {
+    border-right: 0px;
+}
+
+.link {
+    font-weight: bold;
+    font-size: large;
+    color: #003366;
+}
+
+@media screen and (max-width: 1500px) {
+    .content {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .content {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+    .logo {
+        height: 43px;
+    }
+    .content {
+        font-size: 20px;
+        width: 80%;
+        padding: 15px 20px;
+    }
+
+    .hide-m {
+        display: none !important;
+    }
+
+    .only-m {
+        display: block !important;
+    }
+
+    .slide .right-img {
+        background-image: none;
+    }
+
+
+    .slide .left-img {
+        background-position-x: right;
+        background-position-y: -177px;
+        background-size: 200%;
+    }
+
+    .curve > div {
+        width: 100%;
+    }
+
+    .curve .slider-img > img {
+        width: 100%;
+        margin-top: 37px;
+    }
+
+    .curve {
+        background-size: 151% 36%;
+    }
+
+    .col {
+        width: 90%;
+    }
+
+    .row {
+        display: flow-root;
+    }
+
+    .card, .plan-card, .order-card {
+        margin: 30px 0px;
+    }
+    .menu-logo{
+        width: 45px;
+    }.menu{
+    padding: 0px;
+         }
+}
